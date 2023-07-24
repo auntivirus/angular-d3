@@ -1,0 +1,8 @@
+<mat-form-field>
+  <mat-select [(ngModel)]="selected" placeholder="Select sorting order" (selectionChange)="update()">
+    <mat-option *ngFor="let food of order" [value]="food.value" >
+      {{ food.viewValue }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<figure id="bars"></figure>
