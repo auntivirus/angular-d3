@@ -1,0 +1,13 @@
+<div class="map-container">
+  <div class="map-wrapper">
+    <p class="map-text" style="text-align: center">State-wise map of India</p>
+    <div>
+        <!-- <p>State Name</p> -->
+        <p *ngIf="data">{{ stateName || "India"}}</p>
+        <p *ngIf="(data && randomNumbers != null)">{{ randomNumbers }}</p>
+        <p *ngIf="(data && randomNumbers == null)" style="color: red;">No Data Found</p>
+    </div>
+    <div #indiaContainer class="map"></div>
+    <div class="tooltip"></div>
+  </div>
+</div>

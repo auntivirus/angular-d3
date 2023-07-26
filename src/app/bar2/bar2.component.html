@@ -1,1 +1,9 @@
-<p>bar2 works!</p>
+<mat-form-field style="padding-top: 20px;">
+    <mat-select [(ngModel)]="selected" placeholder="Select sorting order" (selectionChange)="update()">
+      <mat-option *ngFor="let food of order" [value]="food.value" >
+        {{ food.viewValue }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <figure id="bars2"></figure>
+  <div class="tooltip"></div>

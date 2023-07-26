@@ -13,9 +13,11 @@ import { StackedRevenueComponent } from './stacked-revenue/stacked-revenue.compo
 import { Bar2Component } from './bar2/bar2.component';
 import { WorldMapComponent } from './world-map/world-map.component';
 import { GlobeComponent } from './globe/globe.component';
+import { IndiaComponent } from './india/india.component';
+import { India2Component } from './india2/india2.component';
 
 @NgModule({
-  declarations: [AppComponent, BarComponent, StackedRevenueComponent, Bar2Component, WorldMapComponent, GlobeComponent],
+  declarations: [AppComponent, BarComponent, StackedRevenueComponent, Bar2Component, WorldMapComponent, GlobeComponent, IndiaComponent, India2Component],
   imports: [
     BrowserModule,
     AppRoutingModule,

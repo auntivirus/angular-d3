@@ -1,0 +1,56 @@
+{
+  "count_by_state": [
+    {
+      "state": "Gujarat",
+      "count": 6
+    },
+    {
+      "state": "Madhya Pradesh",
+      "count": 3
+    },
+    {
+      "state": "Maharashtra",
+      "count": 5
+    },
+    {
+      "state": "Uttar Pradesh",
+      "count": 3
+    },
+    {
+      "state": "Tamil Nadu",
+      "count": 1
+    },
+    {
+      "state": "Chhattishgarh",
+      "count": 1
+    },
+    {
+      "state": "Karnataka",
+      "count": 6
+    },
+    {
+      "state": "Rajasthan",
+      "count": 1
+    },
+    {
+      "state": "",
+      "count": 3
+    },
+    {
+      "state": "Chhattisgarh",
+      "count": 1
+    },
+    {
+      "state": "New Delhi",
+      "count": 1
+    },
+    {
+      "state": "Punjab",
+      "count": 1
+    },
+    {
+      "state": "Andhra Pradesh",
+      "count": 1
+    }
+  ]
+}

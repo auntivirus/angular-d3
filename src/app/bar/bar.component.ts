@@ -88,9 +88,9 @@ export class BarComponent implements OnInit{
   }
 
   private drawBars(data: any[]): void {
-    console.log(data.map(d => d.letter));
-    console.log(data.map(d => d));
-    console.log(data.sort((a,b) => a.letter > b.letter? 1:-1));
+    // console.log(data.map(d => d.letter));
+    // console.log(data.map(d => d));
+    // console.log(data.sort((a,b) => a.letter > b.letter? 1:-1));
     
     
     this.x =d3.scaleBand()

@@ -1,6 +1,6 @@
 import { Component, ElementRef, ViewChild, OnInit } from '@angular/core';
 import * as d3 from 'd3';
-import {zoom, zoomTransform, zoomIdentity} from 'd3-zoom';
+import {zoom, zoomIdentity} from 'd3-zoom';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
